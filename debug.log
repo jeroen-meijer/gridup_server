@@ -1,0 +1,60 @@
+{"message":"Logging initialized at debug level","level":"debug"}
+{"message":"Using .env file to supply config environment variables","level":"debug"}
+{"message":"Logging initialized at debug level","level":"debug"}
+{"message":"Using .env file to supply config environment variables","level":"debug"}
+{"message":"Starting server...","level":"debug"}
+{"message":"Server listening on port 3000","level":"debug"}
+{"message":"Ngrok server is publicly accessible at https://02ea9b0c.ngrok.io","level":"debug"}
+{"message":"Updating config...","level":"debug"}
+{"message":"Init done.","level":"debug"}
+{"message":"Logging initialized at debug level","level":"debug"}
+{"message":"Using .env file to supply config environment variables","level":"debug"}
+{"message":"Starting HTTP server...","level":"debug"}
+{"message":"Server listening on port 3000","level":"debug"}
+{"message":"Starting Ngrok server...","level":"debug"}
+{"message":"Ngrok server is publicly accessible at https://29e2807e.ngrok.io","level":"debug"}
+{"message":"Updating config...","level":"debug"}
+{"message":"Init done.","level":"debug"}
+{"message":"Exiting...","level":"debug"}
+{"message":"Logging initialized at debug level","level":"debug"}
+{"message":"Using .env file to supply config environment variables","level":"debug"}
+{"message":"Starting HTTP server...","level":"debug"}
+{"message":"Server listening on port 3000","level":"debug"}
+{"message":"Starting Ngrok server...","level":"debug"}
+{"message":"Ngrok server is publicly accessible at https://1c5f9fe9.ngrok.io","level":"debug"}
+{"message":"Updating config...","level":"debug"}
+{"message":"Init done.","level":"debug"}
+{"message":"Exiting...","level":"debug"}
+{"message":"Logging initialized at debug level","level":"debug"}
+{"message":"Using .env file to supply config environment variables","level":"debug"}
+{"message":"Starting HTTP server...","level":"debug"}
+{"message":"Server listening on port 3000","level":"debug"}
+{"message":"Starting Ngrok server...","level":"debug"}
+{"message":"Ngrok server is publicly accessible at https://548ecc97.ngrok.io","level":"debug"}
+{"message":"Updating config...","level":"debug"}
+{"message":"Subscribing to game state changes...","level":"debug"}
+{"message":"Init done.","level":"debug"}
+{"message":"New game state: undefined","level":"debug"}
+{"message":"Exiting...","level":"debug"}
+{"message":"Logging initialized at debug level","level":"debug"}
+{"message":"Using .env file to supply config environment variables","level":"debug"}
+{"message":"Starting HTTP server...","level":"debug"}
+{"message":"Server listening on port 3000","level":"debug"}
+{"message":"Starting Ngrok server...","level":"debug"}
+{"message":"Ngrok server is publicly accessible at https://26fbabf4.ngrok.io","level":"debug"}
+{"message":"Updating config...","level":"debug"}
+{"message":"Subscribing to game state changes...","level":"debug"}
+{"message":"Init done.","level":"debug"}
+{"message":"New game state: [object Object]","level":"debug"}
+{"message":"Exiting...","level":"debug"}
+{"message":"Logging initialized at debug level","level":"debug"}
+{"message":"Using .env file to supply config environment variables","level":"debug"}
+{"message":"Starting HTTP server...","level":"debug"}
+{"message":"Server listening on port 3000","level":"debug"}
+{"message":"Starting Ngrok server...","level":"debug"}
+{"message":"Ngrok server is publicly accessible at https://72a0a7b2.ngrok.io","level":"debug"}
+{"message":"Updating config...","level":"debug"}
+{"message":"Subscribing to game state changes...","level":"debug"}
+{"message":"Init done.","level":"debug"}
+{"message":"New game state: undefined","level":"debug"}
+{"message":"Exiting...","level":"debug"}

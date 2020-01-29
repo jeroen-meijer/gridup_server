@@ -6,7 +6,7 @@
   "scripts": {
     "build": "npm run lint && tsc",
     "lint": "eslint . --ext .ts,.tsx",
-    "start": "npm run built && npm run serve",
+    "start": "npm run build && npm run serve",
     "serve": "node dist/server.js",
     "watch": "concurrently -k -p \"[{name}]\" -n \"TypeScript,Node\" -c \"yellow.bold,cyan.bold,green.bold\" \"npm run watch-ts\" \"npm run watch-node\"",
     "watch-node": "nodemon dist/server.js",
@@ -25,13 +25,23 @@
     "@typescript-eslint/eslint-plugin": "^2.12.0",
     "@typescript-eslint/parser": "^2.12.0",
     "concurrently": "^5.0.2",
+    "eslint-plugin-react": "^7.18.0",
+    "eslint-config-prettier": "^6.9.0",
+    "eslint-plugin-prettier": "^3.1.2",
     "nodemon": "^1.18.3",
+    "prettier": "^1.19.1",
     "tslint": "^5.11.0",
     "typescript": "^3.7.3"
   },
   "dependencies": {
     "@types/express": "^4.16.0",
+    "change-case-keys": "0.0.4",
+    "dotenv": "^8.2.0",
     "eslint": "^6.7.2",
-    "express": "^4.16.3"
+    "express": "^4.16.3",
+    "firebase-admin": "^8.9.2",
+    "logger": "0.0.1",
+    "ngrok": "^3.2.7",
+    "winston": "^3.2.1"
   }
 }
