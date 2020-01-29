@@ -8,6 +8,7 @@ import { Api } from './api';
 
 let server: Server;
 
+// - Entrypoint -
 const main = async () => {
   logger.debug('Starting HTTP server...');
   server = app.listen(env.PORT);
@@ -21,7 +22,7 @@ const main = async () => {
   await Api.updateConfig({ deviceName: env.DEVICE_NAME, hostUrl: tunnelUrl });
 
   logger.debug('Subscribing to game state changes...');
-  Api.onGameStateUpdated(value => logger.debug(`New game state: ${value}`));
+  Api.onGameStateUpdated(Api.pushGameStateToBoard);
 
   logger.debug('Init done.');
 };
@@ -30,6 +31,7 @@ const exit = (options: Partial<{ exit: boolean; cleanup: boolean }>) => {
   if (options.cleanup) {
     logger.debug('Closing Ngrok server...');
     ngrok.disconnect();
+    ngrok.kill();
     if (server) {
       logger.debug('Closing HTTP server...');
       server.close();
@@ -42,6 +44,7 @@ const exit = (options: Partial<{ exit: boolean; cleanup: boolean }>) => {
   }
 };
 
+// - Exit triggers -
 // Catches process.exit()
 process.on('exit', () => exit({ cleanup: true }));
 
@@ -55,4 +58,5 @@ process.on('SIGUSR2', () => exit({ exit: true }));
 // Catches uncaught exceptions
 process.on('uncaughtException', () => exit({ exit: true }));
 
+// - Entrypoint call -
 main();

@@ -58,3 +58,58 @@
 {"message":"Init done.","level":"debug"}
 {"message":"New game state: undefined","level":"debug"}
 {"message":"Exiting...","level":"debug"}
+{"message":"Logging initialized at debug level","level":"debug"}
+{"message":"Using .env file to supply config environment variables","level":"debug"}
+{"message":"Starting HTTP server...","level":"debug"}
+{"message":"Server listening on port 3000","level":"debug"}
+{"message":"Starting Ngrok server...","level":"debug"}
+{"message":"Ngrok server is publicly accessible at https://bb6233fd.ngrok.io","level":"debug"}
+{"message":"Updating config...","level":"debug"}
+{"message":"Subscribing to game state changes...","level":"debug"}
+{"message":"Init done.","level":"debug"}
+{"message":"pushGameStateToBoard called with gameState undefined not implemented yet.","level":"debug"}
+{"message":"Exiting...","level":"debug"}
+{"message":"Logging initialized at debug level","level":"debug"}
+{"message":"Using .env file to supply config environment variables","level":"debug"}
+{"message":"Starting HTTP server...","level":"debug"}
+{"message":"Server listening on port 3000","level":"debug"}
+{"message":"Starting Ngrok server...","level":"debug"}
+{"message":"Ngrok server is publicly accessible at https://003c972b.ngrok.io","level":"debug"}
+{"message":"Updating config...","level":"debug"}
+{"message":"Subscribing to game state changes...","level":"debug"}
+{"message":"Init done.","level":"debug"}
+{"message":"pushGameStateToBoard called with args [object Object]. Method not yet implemented.","level":"debug"}
+{"message":"Exiting...","level":"debug"}
+{"message":"Logging initialized at debug level","level":"debug"}
+{"message":"Using .env file to supply config environment variables","level":"debug"}
+{"message":"Starting HTTP server...","level":"debug"}
+{"message":"Server listening on port 3000","level":"debug"}
+{"message":"Starting Ngrok server...","level":"debug"}
+{"message":"Ngrok server is publicly accessible at https://b1c06859.ngrok.io","level":"debug"}
+{"message":"Updating config...","level":"debug"}
+{"message":"Subscribing to game state changes...","level":"debug"}
+{"message":"Init done.","level":"debug"}
+{"message":"pushGameStateToBoard called with args [object Object]. Method not yet implemented.","level":"debug"}
+{"message":"Exiting...","level":"debug"}
+{"message":"Logging initialized at debug level","level":"debug"}
+{"message":"Using .env file to supply config environment variables","level":"debug"}
+{"message":"Starting HTTP server...","level":"debug"}
+{"message":"Server listening on port 3000","level":"debug"}
+{"message":"Starting Ngrok server...","level":"debug"}
+{"message":"Ngrok server is publicly accessible at https://6342a267.ngrok.io","level":"debug"}
+{"message":"Updating config...","level":"debug"}
+{"message":"Subscribing to game state changes...","level":"debug"}
+{"message":"Init done.","level":"debug"}
+{"message":"pushGameStateToBoard called with args [object Object]. Method not yet implemented.","level":"debug"}
+{"message":"Exiting...","level":"debug"}
+{"message":"Logging initialized at debug level","level":"debug"}
+{"message":"Using .env file to supply config environment variables","level":"debug"}
+{"message":"Starting HTTP server...","level":"debug"}
+{"message":"Server listening on port 3000","level":"debug"}
+{"message":"Starting Ngrok server...","level":"debug"}
+{"message":"Ngrok server is publicly accessible at https://1bdca25d.ngrok.io","level":"debug"}
+{"message":"Updating config...","level":"debug"}
+{"message":"Subscribing to game state changes...","level":"debug"}
+{"message":"Init done.","level":"debug"}
+{"message":"pushGameStateToBoard called with args [object Object]. Method not yet implemented.","level":"debug"}
+{"message":"rollDiceOnBoard called with args [object Object]. Method not yet implemented.","level":"debug"}
