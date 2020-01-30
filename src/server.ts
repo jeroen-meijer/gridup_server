@@ -21,9 +21,6 @@ const main = async () => {
   logger.debug('Updating config...');
   await Api.updateConfig({ deviceName: env.DEVICE_NAME, hostUrl: tunnelUrl });
 
-  logger.debug('Subscribing to game state changes...');
-  Api.onGameStateUpdated(Api.pushGameStateToBoard);
-
   logger.debug('Init done.');
 };
 

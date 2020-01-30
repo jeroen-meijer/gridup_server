@@ -113,3 +113,174 @@
 {"message":"Init done.","level":"debug"}
 {"message":"pushGameStateToBoard called with args [object Object]. Method not yet implemented.","level":"debug"}
 {"message":"rollDiceOnBoard called with args [object Object]. Method not yet implemented.","level":"debug"}
+{"message":"Logging initialized at debug level","level":"debug"}
+{"message":"Using .env file to supply config environment variables","level":"debug"}
+{"message":"Starting HTTP server...","level":"debug"}
+{"message":"Server listening on port 3000","level":"debug"}
+{"message":"Starting Ngrok server...","level":"debug"}
+{"message":"Ngrok server is publicly accessible at https://c63f199c.ngrok.io","level":"debug"}
+{"message":"Updating config...","level":"debug"}
+{"message":"Subscribing to game state changes...","level":"debug"}
+{"message":"Init done.","level":"debug"}
+{"message":"pushGameStateToBoard called with gameState undefined. Method not implemented yet.","level":"debug"}
+{"message":"Exiting...","level":"debug"}
+{"message":"Logging initialized at debug level","level":"debug"}
+{"message":"Using .env file to supply config environment variables","level":"debug"}
+{"message":"Starting HTTP server...","level":"debug"}
+{"message":"Server listening on port 3000","level":"debug"}
+{"message":"Starting Ngrok server...","level":"debug"}
+{"message":"Ngrok server is publicly accessible at https://775f7f2c.ngrok.io","level":"debug"}
+{"message":"Updating config...","level":"debug"}
+{"message":"Init done.","level":"debug"}
+{"message":"Exiting...","level":"debug"}
+{"message":"Logging initialized at debug level","level":"debug"}
+{"message":"Using .env file to supply config environment variables","level":"debug"}
+{"message":"Starting HTTP server...","level":"debug"}
+{"message":"Server listening on port 3000","level":"debug"}
+{"message":"Starting Ngrok server...","level":"debug"}
+{"message":"Ngrok server is publicly accessible at https://f847f195.ngrok.io","level":"debug"}
+{"message":"Updating config...","level":"debug"}
+{"message":"Init done.","level":"debug"}
+{"message":"/setGameState - req.body: undefined","level":"debug"}
+{"message":"/setGameState - req.body: undefined","level":"debug"}
+{"message":"Exiting...","level":"debug"}
+{"message":"Logging initialized at debug level","level":"debug"}
+{"message":"Using .env file to supply config environment variables","level":"debug"}
+{"message":"Starting HTTP server...","level":"debug"}
+{"message":"Server listening on port 3000","level":"debug"}
+{"message":"Starting Ngrok server...","level":"debug"}
+{"message":"Ngrok server is publicly accessible at https://7bcccc06.ngrok.io","level":"debug"}
+{"message":"Updating config...","level":"debug"}
+{"message":"Init done.","level":"debug"}
+{"message":"/setGameState - req.body: undefined","level":"debug"}
+{"message":"rollDiceOnBoard called with value undefined. Method not implemented yet.","level":"debug"}
+{"message":"/setGameState - req.body: undefined","level":"debug"}
+{"message":"/setGameState - req.body: undefined","level":"debug"}
+{"message":"/setGameState - req.body: undefined","level":"debug"}
+{"message":"/setGameState - req.body: undefined","level":"debug"}
+{"message":"Exiting...","level":"debug"}
+{"message":"Logging initialized at debug level","level":"debug"}
+{"message":"Using .env file to supply config environment variables","level":"debug"}
+{"message":"Starting HTTP server...","level":"debug"}
+{"message":"Server listening on port 3000","level":"debug"}
+{"message":"Starting Ngrok server...","level":"debug"}
+{"message":"Ngrok server is publicly accessible at https://7434b00b.ngrok.io","level":"debug"}
+{"message":"Updating config...","level":"debug"}
+{"message":"Init done.","level":"debug"}
+{"message":"Call: POST","level":"debug"}
+{"message":"Exiting...","level":"debug"}
+{"message":"Logging initialized at debug level","level":"debug"}
+{"message":"Using .env file to supply config environment variables","level":"debug"}
+{"message":"Starting HTTP server...","level":"debug"}
+{"message":"Server listening on port 3000","level":"debug"}
+{"message":"Starting Ngrok server...","level":"debug"}
+{"message":"Ngrok server is publicly accessible at https://0cba26a0.ngrok.io","level":"debug"}
+{"message":"Updating config...","level":"debug"}
+{"message":"Init done.","level":"debug"}
+{"message":"[POST]: /setGameState","level":"debug"}
+{"message":"Exiting...","level":"debug"}
+{"message":"Logging initialized at debug level","level":"debug"}
+{"message":"Using .env file to supply config environment variables","level":"debug"}
+{"message":"Starting HTTP server...","level":"debug"}
+{"message":"Server listening on port 3000","level":"debug"}
+{"message":"Starting Ngrok server...","level":"debug"}
+{"message":"Ngrok server is publicly accessible at https://ea97cbc3.ngrok.io","level":"debug"}
+{"message":"Updating config...","level":"debug"}
+{"message":"Init done.","level":"debug"}
+{"message":"[POST]: /setGameState. {\"params\":{},\"body\":{\"value\":3}}","level":"debug"}
+{"message":"Exiting...","level":"debug"}
+{"message":"Logging initialized at debug level","level":"debug"}
+{"message":"Using .env file to supply config environment variables","level":"debug"}
+{"message":"Starting HTTP server...","level":"debug"}
+{"message":"Server listening on port 3000","level":"debug"}
+{"message":"Starting Ngrok server...","level":"debug"}
+{"message":"Ngrok server is publicly accessible at https://6358f0e9.ngrok.io","level":"debug"}
+{"message":"Updating config...","level":"debug"}
+{"message":"Init done.","level":"debug"}
+{"message":"[POST]: /setGameState. {\n\tparams: {},\n\tbody: {\n\t\tvalue: 3\n\t}\n}","level":"debug"}
+{"message":"Exiting...","level":"debug"}
+{"message":"Logging initialized at debug level","level":"debug"}
+{"message":"Using .env file to supply config environment variables","level":"debug"}
+{"message":"Starting HTTP server...","level":"debug"}
+{"message":"Server listening on port 3000","level":"debug"}
+{"message":"Starting Ngrok server...","level":"debug"}
+{"message":"Ngrok server is publicly accessible at https://b81ed3d5.ngrok.io","level":"debug"}
+{"message":"Updating config...","level":"debug"}
+{"message":"Init done.","level":"debug"}
+{"message":"[POST]: /setGameState. {\n\tparams: {},\n\tbody: {\n\t\tvalue: 3\n\t}\n}","level":"debug"}
+{"message":"Exiting...","level":"debug"}
+{"message":"Logging initialized at debug level","level":"debug"}
+{"message":"Using .env file to supply config environment variables","level":"debug"}
+{"message":"Starting HTTP server...","level":"debug"}
+{"message":"Server listening on port 3000","level":"debug"}
+{"message":"Starting Ngrok server...","level":"debug"}
+{"message":"[POST]: /setGameState. {\n params: {},\n body: {\n  value: 3\n }\n}","level":"debug"}
+{"message":"Ngrok server is publicly accessible at https://a71fbbeb.ngrok.io","level":"debug"}
+{"message":"Updating config...","level":"debug"}
+{"message":"Init done.","level":"debug"}
+{"message":"Exiting...","level":"debug"}
+{"message":"Logging initialized at debug level","level":"debug"}
+{"message":"Using .env file to supply config environment variables","level":"debug"}
+{"message":"Starting HTTP server...","level":"debug"}
+{"message":"Server listening on port 3000","level":"debug"}
+{"message":"Starting Ngrok server...","level":"debug"}
+{"message":"Ngrok server is publicly accessible at https://d7e59889.ngrok.io","level":"debug"}
+{"message":"Updating config...","level":"debug"}
+{"message":"Init done.","level":"debug"}
+{"message":"[POST]: /setGameState. { params: {}, body: { value: 3 } }","level":"debug"}
+{"message":"[POST]: /setGameState. { params: {}, body: { name: 'state1', board: [ [ { elevation: 0, color: { r: 255, g: 255, b: 255 } }, { elevation: 0, color: { r: 255, g: 255, b: 255 } }, { elevation: 0, color: { r: 255, g: 255, b: 255 } }, { elevation: 0, color: { r: 255, g: 255, b: 255 } }, { elevation: 0, color: { r: 255, g: 255, b: 255 } } ], [ { elevation: 0, color: { r: 0, g: 0, b: 0 } }, { elevation: 0, color: { r: 0, g: 0, b: 0 } }, { elevation: 0, color: { r: 0, g: 0, b: 0 } }, { elevation: 0, color: { r: 0, g: 0, b: 0 } }, { elevation: 0, color: { r: 0, g: 0, b: 0 } } ], [ { elevation: 0, color: { r: 255, g: 255, b: 255 } }, { elevation: 0, color: { r: 255, g: 255, b: 255 } }, { elevation: 0, color: { r: 255, g: 255, b: 255 } }, { elevation: 0, color: { r: 255, g: 255, b: 255 } }, { elevation: 0, color: { r: 255, g: 255, b: 255 } } ], [ { elevation: 0, color: { r: 0, g: 0, b: 0 } }, { elevation: 0, color: { r: 0, g: 0, b: 0 } }, { elevation: 0, color: { r: 0, g: 0, b: 0 } }, { elevation: 0, color: { r: 0, g: 0, b: 0 } }, { elevation: 0, color: { r: 0, g: 0, b: 0 } } ], [ { elevation: 0, color: { r: 255, g: 255, b: 255 } }, { elevation: 0, color: { r: 255, g: 255, b: 255 } }, { elevation: 0, color: { r: 255, g: 255, b: 255 } }, { elevation: 0, color: { r: 255, g: 255, b: 255 } }, { elevation: 0, color: { r: 255, g: 255, b: 255 } } ] ] } }","level":"debug"}
+{"message":"Exiting...","level":"debug"}
+{"message":"Logging initialized at debug level","level":"debug"}
+{"message":"Using .env file to supply config environment variables","level":"debug"}
+{"message":"Starting HTTP server...","level":"debug"}
+{"message":"Server listening on port 3000","level":"debug"}
+{"message":"Starting Ngrok server...","level":"debug"}
+{"message":"Ngrok server is publicly accessible at https://38c3ef44.ngrok.io","level":"debug"}
+{"message":"Updating config...","level":"debug"}
+{"message":"Init done.","level":"debug"}
+{"message":"[POST]: /setGameState. { params: {}, body: { name: 'state1', board: [ [ { elevation: 0, color: { r: 255, g: 255, b: 255 } }, { elevation: 0, color: { r: 255, g: 255, b: 255 } }, { elevation: 0, color: { r: 255, g: 255, b: 255 } }, { elevation: 0, color: { r: 255, g: 255, b: 255 } }, { elevation: 0, color: { r: 255, g: 255, b: 255 } } ], [ { elevation: 0, color: { r: 0, g: 0, b: 0 } }, { elevation: 0, color: { r: 0, g: 0, b: 0 } }, { elevation: 0, color: { r: 0, g: 0, b: 0 } }, { elevation: 0, color: { r: 0, g: 0, b: 0 } }, { elevation: 0, color: { r: 0, g: 0, b: 0 } } ], [ { elevation: 0, color: { r: 255, g: 255, b: 255 } }, { elevation: 0, color: { r: 255, g: 255, b: 255 } }, { elevation: 0, color: { r: 255, g: 255, b: 255 } }, { elevation: 0, color: { r: 255, g: 255, b: 255 } }, { elevation: 0, color: { r: 255, g: 255, b: 255 } } ], [ { elevation: 0, color: { r: 0, g: 0, b: 0 } }, { elevation: 0, color: { r: 0, g: 0, b: 0 } }, { elevation: 0, color: { r: 0, g: 0, b: 0 } }, { elevation: 0, color: { r: 0, g: 0, b: 0 } }, { elevation: 0, color: { r: 0, g: 0, b: 0 } } ], [ { elevation: 0, color: { r: 255, g: 255, b: 255 } }, { elevation: 0, color: { r: 255, g: 255, b: 255 } }, { elevation: 0, color: { r: 255, g: 255, b: 255 } }, { elevation: 0, color: { r: 255, g: 255, b: 255 } }, { elevation: 0, color: { r: 255, g: 255, b: 255 } } ] ] } }","level":"debug"}
+{"message":"Exiting...","level":"debug"}
+{"message":"Logging initialized at debug level","level":"debug"}
+{"message":"Using .env file to supply config environment variables","level":"debug"}
+{"message":"Starting HTTP server...","level":"debug"}
+{"message":"Server listening on port 3000","level":"debug"}
+{"message":"Starting Ngrok server...","level":"debug"}
+{"message":"Ngrok server is publicly accessible at https://36520515.ngrok.io","level":"debug"}
+{"message":"Updating config...","level":"debug"}
+{"message":"Init done.","level":"debug"}
+{"message":"[POST]: /setGameState. { params: {}, body: { name: 'state1', board: [ [ { elevation: 0, color: { r: 255, g: 255, b: 255 } }, { elevation: 0, color: { r: 255, g: 255, b: 255 } }, { elevation: 0, color: { r: 255, g: 255, b: 255 } }, { elevation: 0, color: { r: 255, g: 255, b: 255 } }, { elevation: 0, color: { r: 255, g: 255, b: 255 } } ], [ { elevation: 0, color: { r: 0, g: 0, b: 0 } }, { elevation: 0, color: { r: 0, g: 0, b: 0 } }, { elevation: 0, color: { r: 0, g: 0, b: 0 } }, { elevation: 0, color: { r: 0, g: 0, b: 0 } }, { elevation: 0, color: { r: 0, g: 0, b: 0 } } ], [ { elevation: 0, color: { r: 255, g: 255, b: 255 } }, { elevation: 0, color: { r: 255, g: 255, b: 255 } }, { elevation: 0, color: { r: 255, g: 255, b: 255 } }, { elevation: 0, color: { r: 255, g: 255, b: 255 } }, { elevation: 0, color: { r: 255, g: 255, b: 255 } } ], [ { elevation: 0, color: { r: 0, g: 0, b: 0 } }, { elevation: 0, color: { r: 0, g: 0, b: 0 } }, { elevation: 0, color: { r: 0, g: 0, b: 0 } }, { elevation: 0, color: { r: 0, g: 0, b: 0 } }, { elevation: 0, color: { r: 0, g: 0, b: 0 } } ], [ { elevation: 0, color: { r: 255, g: 255, b: 255 } }, { elevation: 0, color: { r: 255, g: 255, b: 255 } }, { elevation: 0, color: { r: 255, g: 255, b: 255 } }, { elevation: 0, color: { r: 255, g: 255, b: 255 } }, { elevation: 0, color: { r: 255, g: 255, b: 255 } } ] ] } }","level":"debug"}
+{"message":"pushGameStateToBoard called with gameState name state1. Method not implemented yet.","level":"debug"}
+{"message":"[POST]: /setGameState. { params: {}, body: { name: 'state1', board: [ [ { elevation: 0, color: { r: 255, g: 255, b: 255 } }, { elevation: 0, color: { r: 255, g: 255, b: 255 } }, { elevation: 0, color: { r: 255, g: 255, b: 255 } }, { elevation: 0, color: { r: 255, g: 255, b: 255 } }, { elevation: 0, color: { r: 255, g: 255, b: 255 } } ], [ { elevation: 0, color: { r: 0, g: 0, b: 0 } }, { elevation: 0, color: { r: 0, g: 0, b: 0 } }, { elevation: 0, color: { r: 0, g: 0, b: 0 } }, { elevation: 0, color: { r: 0, g: 0, b: 0 } }, { elevation: 0, color: { r: 0, g: 0, b: 0 } } ], [ { elevation: 0, color: { r: 255, g: 255, b: 255 } }, { elevation: 0, color: { r: 255, g: 255, b: 255 } }, { elevation: 0, color: { r: 255, g: 255, b: 255 } }, { elevation: 0, color: { r: 255, g: 255, b: 255 } }, { elevation: 0, color: { r: 255, g: 255, b: 255 } } ], [ { elevation: 0, color: { r: 0, g: 0, b: 0 } }, { elevation: 0, color: { r: 0, g: 0, b: 0 } }, { elevation: 0, color: { r: 0, g: 0, b: 0 } }, { elevation: 0, color: { r: 0, g: 0, b: 0 } }, { elevation: 0, color: { r: 0, g: 0, b: 0 } } ], [ { elevation: 0, color: { r: 255, g: 255, b: 255 } }, { elevation: 0, color: { r: 255, g: 255, b: 255 } }, { elevation: 0, color: { r: 255, g: 255, b: 255 } }, { elevation: 0, color: { r: 255, g: 255, b: 255 } }, { elevation: 0, color: { r: 255, g: 255, b: 255 } } ] ] } }","level":"debug"}
+{"message":"pushGameStateToBoard called with gameState name state1. Method not implemented yet.","level":"debug"}
+{"message":"[POST]: /setGameState. { params: {}, body: { name: 'state1', board: [ [ { elevation: 0, color: { r: 255, g: 255, b: 255 } }, { elevation: 0, color: { r: 255, g: 255, b: 255 } }, { elevation: 0, color: { r: 255, g: 255, b: 255 } }, { elevation: 0, color: { r: 255, g: 255, b: 255 } }, { elevation: 0, color: { r: 255, g: 255, b: 255 } } ], [ { elevation: 0, color: { r: 0, g: 0, b: 0 } }, { elevation: 0, color: { r: 0, g: 0, b: 0 } }, { elevation: 0, color: { r: 0, g: 0, b: 0 } }, { elevation: 0, color: { r: 0, g: 0, b: 0 } }, { elevation: 0, color: { r: 0, g: 0, b: 0 } } ], [ { elevation: 0, color: { r: 255, g: 255, b: 255 } }, { elevation: 0, color: { r: 255, g: 255, b: 255 } }, { elevation: 0, color: { r: 255, g: 255, b: 255 } }, { elevation: 0, color: { r: 255, g: 255, b: 255 } }, { elevation: 0, color: { r: 255, g: 255, b: 255 } } ], [ { elevation: 0, color: { r: 0, g: 0, b: 0 } }, { elevation: 0, color: { r: 0, g: 0, b: 0 } }, { elevation: 0, color: { r: 0, g: 0, b: 0 } }, { elevation: 0, color: { r: 0, g: 0, b: 0 } }, { elevation: 0, color: { r: 0, g: 0, b: 0 } } ], [ { elevation: 0, color: { r: 255, g: 255, b: 255 } }, { elevation: 0, color: { r: 255, g: 255, b: 255 } }, { elevation: 0, color: { r: 255, g: 255, b: 255 } }, { elevation: 0, color: { r: 255, g: 255, b: 255 } }, { elevation: 0, color: { r: 255, g: 255, b: 255 } } ] ] } }","level":"debug"}
+{"message":"pushGameStateToBoard called with gameState name state1. Method not implemented yet.","level":"debug"}
+{"message":"[POST]: /setGameState. { params: {}, body: { name: 'state1', board: [ [ { elevation: 0, color: { r: 255, g: 255, b: 255 } }, { elevation: 0, color: { r: 255, g: 255, b: 255 } }, { elevation: 0, color: { r: 255, g: 255, b: 255 } }, { elevation: 0, color: { r: 255, g: 255, b: 255 } }, { elevation: 0, color: { r: 255, g: 255, b: 255 } } ], [ { elevation: 0, color: { r: 0, g: 0, b: 0 } }, { elevation: 0, color: { r: 0, g: 0, b: 0 } }, { elevation: 0, color: { r: 0, g: 0, b: 0 } }, { elevation: 0, color: { r: 0, g: 0, b: 0 } }, { elevation: 0, color: { r: 0, g: 0, b: 0 } } ], [ { elevation: 0, color: { r: 255, g: 255, b: 255 } }, { elevation: 0, color: { r: 255, g: 255, b: 255 } }, { elevation: 0, color: { r: 255, g: 255, b: 255 } }, { elevation: 0, color: { r: 255, g: 255, b: 255 } }, { elevation: 0, color: { r: 255, g: 255, b: 255 } } ], [ { elevation: 0, color: { r: 0, g: 0, b: 0 } }, { elevation: 0, color: { r: 0, g: 0, b: 0 } }, { elevation: 0, color: { r: 0, g: 0, b: 0 } }, { elevation: 0, color: { r: 0, g: 0, b: 0 } }, { elevation: 0, color: { r: 0, g: 0, b: 0 } } ], [ { elevation: 0, color: { r: 255, g: 255, b: 255 } }, { elevation: 0, color: { r: 255, g: 255, b: 255 } }, { elevation: 0, color: { r: 255, g: 255, b: 255 } }, { elevation: 0, color: { r: 255, g: 255, b: 255 } }, { elevation: 0, color: { r: 255, g: 255, b: 255 } } ] ] } }","level":"debug"}
+{"message":"pushGameStateToBoard called with gameState name state1. Method not implemented yet.","level":"debug"}
+{"message":"[POST]: /setGameState. { params: {}, body: { name: 'state1', board: [ [ { elevation: 0, color: { r: 255, g: 255, b: 255 } }, { elevation: 0, color: { r: 255, g: 255, b: 255 } }, { elevation: 0, color: { r: 255, g: 255, b: 255 } }, { elevation: 0, color: { r: 255, g: 255, b: 255 } }, { elevation: 0, color: { r: 255, g: 255, b: 255 } } ], [ { elevation: 0, color: { r: 0, g: 0, b: 0 } }, { elevation: 0, color: { r: 0, g: 0, b: 0 } }, { elevation: 0, color: { r: 0, g: 0, b: 0 } }, { elevation: 0, color: { r: 0, g: 0, b: 0 } }, { elevation: 0, color: { r: 0, g: 0, b: 0 } } ], [ { elevation: 0, color: { r: 255, g: 255, b: 255 } }, { elevation: 0, color: { r: 255, g: 255, b: 255 } }, { elevation: 0, color: { r: 255, g: 255, b: 255 } }, { elevation: 0, color: { r: 255, g: 255, b: 255 } }, { elevation: 0, color: { r: 255, g: 255, b: 255 } } ], [ { elevation: 0, color: { r: 0, g: 0, b: 0 } }, { elevation: 0, color: { r: 0, g: 0, b: 0 } }, { elevation: 0, color: { r: 0, g: 0, b: 0 } }, { elevation: 0, color: { r: 0, g: 0, b: 0 } }, { elevation: 0, color: { r: 0, g: 0, b: 0 } } ], [ { elevation: 0, color: { r: 255, g: 255, b: 255 } }, { elevation: 0, color: { r: 255, g: 255, b: 255 } }, { elevation: 0, color: { r: 255, g: 255, b: 255 } }, { elevation: 0, color: { r: 255, g: 255, b: 255 } }, { elevation: 0, color: { r: 255, g: 255, b: 255 } } ] ] } }","level":"debug"}
+{"message":"pushGameStateToBoard called with gameState name state1. Method not implemented yet.","level":"debug"}
+{"message":"Exiting...","level":"debug"}
+{"message":"Logging initialized at debug level","level":"debug"}
+{"message":"Using .env file to supply config environment variables","level":"debug"}
+{"message":"Starting HTTP server...","level":"debug"}
+{"message":"Server listening on port 3000","level":"debug"}
+{"message":"Starting Ngrok server...","level":"debug"}
+{"message":"Ngrok server is publicly accessible at https://1a2d459d.ngrok.io","level":"debug"}
+{"message":"Updating config...","level":"debug"}
+{"message":"Init done.","level":"debug"}
+{"message":"[POST]: /setGameState. { params: {} }","level":"debug"}
+{"message":"pushGameStateToBoard called with gameState name state1. Method not implemented yet.","level":"debug"}
+{"message":"Exiting...","level":"debug"}
+{"message":"Logging initialized at debug level","level":"debug"}
+{"message":"Using .env file to supply config environment variables","level":"debug"}
+{"message":"Starting HTTP server...","level":"debug"}
+{"message":"Server listening on port 3000","level":"debug"}
+{"message":"Starting Ngrok server...","level":"debug"}
+{"message":"Ngrok server is publicly accessible at https://1fd20569.ngrok.io","level":"debug"}
+{"message":"Updating config...","level":"debug"}
+{"message":"Init done.","level":"debug"}
+{"message":"[POST]: /setGameState - params: {}","level":"debug"}
+{"message":"pushGameStateToBoard called with gameState name state1. Method not implemented yet.","level":"debug"}
+{"message":"[POST]: /setGameState - params: {}","level":"debug"}
+{"message":"pushGameStateToBoard called with gameState name undefined. Method not implemented yet.","level":"debug"}
+{"message":"[POST]: /setGameState - params: {}","level":"debug"}
+{"message":"pushGameStateToBoard called with gameState name undefined. Method not implemented yet.","level":"debug"}
