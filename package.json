@@ -5,8 +5,10 @@
   "main": "dist/server.js",
   "scripts": {
     "build": "npm run lint && tsc",
+    "build-nolint": "tsc",
     "lint": "eslint . --ext .ts,.tsx",
     "start": "npm run build && npm run serve",
+    "start-nolint": "npm run build-nolint && npm run serve",
     "serve": "node dist/server.js",
     "watch": "concurrently -k -p \"[{name}]\" -n \"TypeScript,Node\" -c \"yellow.bold,cyan.bold,green.bold\" \"npm run watch-ts\" \"npm run watch-node\"",
     "watch-node": "nodemon dist/server.js",
