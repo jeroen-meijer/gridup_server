@@ -7,7 +7,7 @@ import { toSnakeCase } from './utils';
 import logger from './logger';
 
 export class Api {
-  private static readonly _host = 'localhost:6969';
+  private static readonly _host = 'http://localhost:6969';
 
   static async updateConfig(config: ServerConfig) {
     const serverConfigDoc = firestore.collection(paths.env).doc(paths.serverConfig);
