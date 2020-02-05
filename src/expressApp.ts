@@ -40,7 +40,7 @@ type RollDiceRequestBody = {
   value?: DiceValue;
 };
 app.post<RollDiceParams, HttpResponse<RollDiceResponseBody>, HttpRequestBody<RollDiceRequestBody>>(
-  '/rolldice',
+  '/rollDice',
   (req, res) => {
     Api.rollDiceOnBoard(req.body?.value);
     res.send({ success: true, payload: req.body });
