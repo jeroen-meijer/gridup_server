@@ -7,6 +7,8 @@ import board
 import neopixel
 from flask import Flask, jsonify, make_response, request
 
+isElevated = False
+
 elevationPin1 = 23
 elevationPin2 = 24
 elevationEnable = 25
@@ -94,21 +96,13 @@ def roll_dice(value):
 def set_tile_elevated(value):
     elevated = int(value) == 1
     print('elevated: ' + str(elevated))
-    with open('config.txt', 'w+') as s:
-        pass
-    with open('config.txt', 'r+') as s:
-        s.seek(0)
-        content = s.readline(1)
-        print('content: ' + str(content))
-        savedVal = content == '1'
-        print('savedVal: ' + str(savedVal))
-        if (elevated == savedVal):
-            print('Elevation was the same. Doing nothing.')
-        else:
-            print('Elevation has changed. Performing change...')
-            s.seek(0)
-            s.write('1' if elevated else '0')
-            elevate(elevated)
+    global isElevated
+    if (elevated == isElevated):
+        print('Elevation was the same. Doing nothing.')
+    else:
+        print('Elevation has changed. Performing change...')
+        isElevated = elevated
+        elevate(elevated)
 
     return make_response(jsonify({'success': True}))
 
