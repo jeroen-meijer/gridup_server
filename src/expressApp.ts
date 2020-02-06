@@ -47,4 +47,18 @@ app.post<RollDiceParams, HttpResponse<RollDiceResponseBody>, HttpRequestBody<Rol
   }
 );
 
+// /setTileElevated
+type SetTileElevatedParams = {};
+type SetTileElevatedResponseBody = {};
+type SetTileElevatedRequestBody = {
+  elevated?: boolean;
+};
+app.post<SetTileElevatedParams, HttpResponse<SetTileElevatedResponseBody>, HttpRequestBody<SetTileElevatedRequestBody>>(
+  '/setTileElevated',
+  (req, res) => {
+    Api.setTileElevated(req.body?.elevated);
+    res.send({ success: true, payload: req.body });
+  }
+);
+
 export default app;

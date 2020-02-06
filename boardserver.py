@@ -4,8 +4,10 @@ import smbus
 import time
 import board
 import neopixel
-
+import shelve
 from flask import Flask, jsonify, make_response, request
+
+
 app = Flask(__name__)
 
 # 0 = /dev/i2c-0 (port I2C0), 1 = /dev/i2c-1 (port I2C1)
@@ -30,39 +32,68 @@ ADDRESS_LIST = [
     [[16, 0], [0x30, 1], [8, 0], [0x31, 1], [0, 0]]
 ]
 
+
 @app.route('/setGameState', methods=['POST'])
 def set_game_state():
     state = request.get_json(force=True)
     for x in range(0, 5):
         for y in range(0, 5):
             print('Fetching color data for [' + str(x) + ',' + str(y) + ']')
-            colorData = state['board'][x][y]['color']
-            color_list = [colorData['r'], colorData['g'], colorData['b']]
-            print('color_list: ' + str(color_list))
+            tileData = colorData = state['board'][x][y]
+            colorData = tileData['color']
+            colorPayload = [colorData['r'], colorData['g'], colorData['b']]
+            print('colorPayload: ' + str(colorPayload))
             print('ADDRESS_LIST[x][y][1]: ' + str(ADDRESS_LIST[x][y][1]))
             address = ADDRESS_LIST[x][y][0]
             if(ADDRESS_LIST[x][y][1] == 1):
                 print('Writing block...')
                 print('address: ' + str(address))
-                print('DEVICE_REG_COLOR: ' + str(DEVICE_REG_COLOR))
                 try:
                     bus.write_i2c_block_data(
-                        address, DEVICE_REG_COLOR, color_list)
+                        address, DEVICE_REG_COLOR, colorPayload)
                     time.sleep(1/100)
                 except OSError as e:
-                    print('Failed to write. Error: ' + str(e))
+                    print('!!! Failed to write to address ' +
+                          str(address) + '. Error: ' + str(e))
             else:
                 pixels[address] = (
                     colorData['g'], colorData['r'], colorData['b'], 0)
+            print('---------')
+    print('--- DONE ---')
     return make_response(jsonify({'success': True}))
+
 
 @app.route('/rollDice/<value>', methods=['GET'])
 def roll_dice(value):
     number = int(value)
-    ledout_values = [number, 0x00, 0x00]
+    ledoutValues = [number, 0x00, 0x00]
     bus.write_i2c_block_data(
-        DEVICE_ADDRESS, DEVICE_REG_ROLL_DICE, ledout_values)
+        DEVICE_ADDRESS, DEVICE_REG_ROLL_DICE, ledoutValues)
     return make_response(jsonify({'success': True}))
+
+
+@app.route('/setTileElevated/<value>', methods=['GET'])
+def set_tile_elevated(value):
+    elevated = int(value) == 1
+    print('elevated: ' + str(elevated))
+    with open('config.txt', 'w+') as s:
+        pass
+    with open('config.txt', 'r+') as s:
+        s.seek(0)
+        content = s.readline(1)
+        print('content: ' + str(content))
+        savedVal = content == '1'
+        print('savedVal: ' + str(savedVal))
+        if (elevated == savedVal):
+            print('Elevation was the same. Doing nothing.')
+        else:
+            print('Elevation has changed. Performing change...')
+            s.seek(0)
+            s.write('1' if elevated else '0')
+            print('Do stuff here...')
+
+    return make_response(jsonify({'success': True}))
+
 
 if __name__ == '__main__':
     app.run(host='localhost', port=6969)

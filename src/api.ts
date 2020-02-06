@@ -23,4 +23,9 @@ export class Api {
     logger.debug(`rollDiceOnBoard called with value ${value}.`);
     axios.get(`${Api._host}/rollDice/${value ?? Math.round(Math.random() * 5 + 1)}`);
   }
+
+  static async setTileElevated(elevated: boolean) {
+    logger.debug(`setTileElevated called with elevated ${elevated}.`);
+    axios.get(`${Api._host}/setTileElevated/${elevated ? 1 : 0}`);
+  }
 }
