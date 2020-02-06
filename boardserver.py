@@ -1,12 +1,20 @@
 #!/usr/bin/python
 
+import RPi.GPIO as GPIO
 import smbus
 import time
 import board
 import neopixel
-import shelve
 from flask import Flask, jsonify, make_response, request
 
+elevationPin1 = 23
+elevationPin2 = 24
+elevationEnable = 25
+
+GPIO.setmode(GPIO.BCM)
+GPIO.setup(elevationPin1, GPIO.OUT)
+GPIO.setup(elevationPin2, GPIO.OUT)
+GPIO.setup(elevationEnable, GPIO.OUT)
 
 app = Flask(__name__)
 
@@ -32,7 +40,17 @@ ADDRESS_LIST = [
     [[16, 0], [0x30, 1], [8, 0], [0x31, 1], [0, 0]]
 ]
 
-
+def elevate(up):
+    if (up):
+        GPIO.output(elevationPin1, GPIO.HIGH)
+        GPIO.output(elevationPin2, GPIO.LOW)
+    else:
+        GPIO.output(elevationPin1, GPIO.LOW)
+        GPIO.output(elevationPin2, GPIO.HIGH)
+    GPIO.output(elevationEnable, GPIO.HIGH)
+    time.sleep(1/3)
+    GPIO.output(elevationEnable, GPIO.LOW)
+    
 @app.route('/setGameState', methods=['POST'])
 def set_game_state():
     state = request.get_json(force=True)
@@ -90,7 +108,7 @@ def set_tile_elevated(value):
             print('Elevation has changed. Performing change...')
             s.seek(0)
             s.write('1' if elevated else '0')
-            print('Do stuff here...')
+            elevate(elevated)
 
     return make_response(jsonify({'success': True}))
 
